@@ -25,7 +25,8 @@ build() {
   export CXXFLAGS=${CXXFLAGS/-pipe/}
 
   # List of multilib builds
-  mlist=aprofile
+  #mlist=aprofile
+  mlist=rmprofile
 
   mkdir build
   cd build
