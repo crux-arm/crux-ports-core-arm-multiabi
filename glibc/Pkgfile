@@ -25,17 +25,21 @@ build() {
 
   export ASFLAGS="$CFLAGS"
 
+  # List of multilib builds
+  mlist=aprofile
+
   mkdir $SRC/build
   cd $SRC/build
   $SRC/$name-$version/configure \
     --prefix=/usr \
     --build=arm-unknown-linux-gnueabihf \
+    --enable-multilib \
+    --with-multilib-list=$mlist \
     --libexecdir=/usr/lib \
     --with-headers=$PKG/usr/include \
     --enable-kernel=3.2 \
     --enable-stack-protector=strong \
     --enable-bind-now \
-    --disable-multi-arch \
     --disable-profile \
     --disable-werror \
     --without-gd

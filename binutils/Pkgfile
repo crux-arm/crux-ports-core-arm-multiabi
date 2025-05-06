@@ -10,12 +10,17 @@ release=1
 source=(http://ftpmirror.gnu.org/gnu/$name/$name-$version.tar.bz2)
 
 build() {
+  # List of multilib builds
+  mlist=aprofile
+
   #sed -i '/^SUBDIRS/s/doc//' $name-$version/bfd/Makefile.in
   mkdir build
   cd build
 
   ../$name-$version/configure --prefix=/usr \
     --build=arm-unknown-linux-gnueabihf \
+    --enable-multilib \
+    --with-multilib-list=$mlist \
     --enable-shared \
     --enable-default-execstack=no \
     --enable-ld=default \
