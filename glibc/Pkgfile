@@ -33,8 +33,7 @@ build() {
   $SRC/$name-$version/configure \
     --prefix=/usr \
     --build=arm-unknown-linux-gnueabihf \
-    --enable-multilib \
-    --with-multilib-list=$mlist \
+    --enable-multiarch \
     --libexecdir=/usr/lib \
     --with-headers=$PKG/usr/include \
     --enable-kernel=3.2 \
