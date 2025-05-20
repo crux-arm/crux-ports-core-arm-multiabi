@@ -1,8 +1,0 @@
-#
-# /etc/ports/core-arm-multilib.httpup: CRUX-ARM ports overlay for CRUX core collection for the multilib toolchain
-#
-
-ROOT_DIR=/usr/ports/core-arm-multilib
-URL=https://raw.githubusercontent.com/crux-arm/crux-ports-core-arm-multilib/3.8/
-
-# End of file
