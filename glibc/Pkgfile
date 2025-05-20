@@ -1,0 +1,80 @@
+# Description: The C library used in the GNU system
+# URL: http://www.gnu.org/software/libc/
+# Maintainer: CRUX System Team, core-ports at crux dot nu
+# Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on:
+
+name=glibc
+version=2.40
+release=1
+_kernel_version=6.6.30
+
+source=(https://ftp.gnu.org/gnu/glibc/glibc-$version.tar.xz \
+  http://www.kernel.org/pub/linux/kernel/v6.x/linux-$_kernel_version.tar.xz \
+  glibc-2.39-fhs-1.patch \
+  hosts resolv.conf nsswitch.conf host.conf ld.so.conf \
+  locale-gen locale.gen.in)
+
+build() {
+  # install kernel headers
+  make -C $SRC/linux-$_kernel_version mrproper
+  make -C $SRC/linux-$_kernel_version INSTALL_HDR_PATH=$PKG/usr headers_install
+  chown root:root $PKG/usr
+
+  patch -p1 -d $SRC/$name-${version:0:4} -i $SRC/glibc-2.39-fhs-1.patch
+
+  export ASFLAGS="$CFLAGS"
+
+  # List of multilib builds
+  mlist=aprofile
+
+  mkdir $SRC/build
+  cd $SRC/build
+  $SRC/$name-$version/configure \
+    --prefix=/usr \
+    --build=arm-unknown-linux-gnueabihf \
+    --enable-multiarch \
+    --libexecdir=/usr/lib \
+    --with-headers=$PKG/usr/include \
+    --enable-kernel=3.2 \
+    --enable-stack-protector=strong \
+    --enable-bind-now \
+    --disable-profile \
+    --disable-werror \
+    --without-gd
+
+  make
+  #make check
+  make install_root=$PKG install
+
+  install -m 0644 $SRC/$name-$version/nscd/nscd.conf $PKG/etc
+  install -d $PKG/var/db/nscd
+
+  install -m 0644 $SRC/{hosts,resolv.conf,nsswitch.conf,host.conf,ld.so.conf} $PKG/etc
+
+  ln -sf ../usr/share/zoneinfo/UTC $PKG/etc/localtime
+  ln -s stubs-hard.h $PKG/usr/include/gnu/stubs-soft.h
+  install -d $PKG/etc/ld.so.conf.d $PKG/usr/lib/locale
+  touch $PKG/etc/ld.so.cache
+
+  install -Dm755 $SRC/locale-gen $PKG/usr/sbin/locale-gen
+  install -Dm644 $SRC/locale.gen.in $PKG/etc/locale.gen
+  sed -e '1,3d' -e 's|/| |g' -e 's|\\| |g' -e 's|^|#|g' \
+    $SRC/$name-$version/localedata/SUPPORTED >> $PKG/etc/locale.gen
+
+  LC_ALL=C ./elf/ld.so --library-path . $PKG/usr/bin/localedef \
+    --force --quiet \
+    --inputfile=$SRC/$name-$version/localedata/locales/C \
+    --charmap=$SRC/$name-$version/localedata/charmaps/UTF-8 \
+    $PKG/usr/lib/locale/C.UTF-8 || true
+
+  rm -r $PKG/usr/share/locale \
+    $PKG/usr/bin/{tzselect,zdump} \
+    $PKG/usr/sbin/zic
+
+  install -Dm644 $SRC/$name-$version/intl/locale.alias \
+    $PKG/usr/share/locale/locale.alias
+
+  find $PKG -name "*install.cmd" -delete
+  find $PKG -name ".\install" -delete
+}
