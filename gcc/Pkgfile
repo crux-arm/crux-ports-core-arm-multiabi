@@ -24,9 +24,6 @@ build() {
   export CFLAGS=${CFLAGS/-pipe/}
   export CXXFLAGS=${CXXFLAGS/-pipe/}
 
-  # List of multilib builds
-  mlist=aprofile
-
   mkdir build
   cd build
 
@@ -46,8 +43,10 @@ build() {
     --enable-clocale=gnu \
     --enable-shared \
     --enable-lto \
-    --enable-multilib \
-    --with-multilib-list=$mlist \
+    --enable-multiarch \
+    --with-arch=armv7-a+fp \
+    --with-float=hard \
+    --with-mode=thumb \
     --enable-plugin \
     --enable-default-pie \
     --enable-default-ssp \

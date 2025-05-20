@@ -10,17 +10,13 @@ release=1
 source=(http://ftpmirror.gnu.org/gnu/$name/$name-$version.tar.bz2)
 
 build() {
-  # List of multilib builds
-  mlist=aprofile
-
   #sed -i '/^SUBDIRS/s/doc//' $name-$version/bfd/Makefile.in
   mkdir build
   cd build
 
   ../$name-$version/configure --prefix=/usr \
     --build=arm-unknown-linux-gnueabihf \
-    --enable-multilib \
-    --with-multilib-list=$mlist \
+    --enable-multiarch \
     --enable-shared \
     --enable-default-execstack=no \
     --enable-ld=default \
@@ -36,6 +32,9 @@ build() {
     --disable-jansson \
     --disable-nls \
     --disable-werror
+
+
+--enable-multiarch --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb
 
   sed -i -e '/^MAKEINFO/s:=.*:= true:' Makefile
 
