@@ -1,4 +1,4 @@
-# crux-ports-core-arm-multiARCH
+# crux-ports-core-arm-multiarch
 
 CRUX-ARM multiarch ports overlay for CRUX core collection
 
