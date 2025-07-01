@@ -6,12 +6,12 @@
 
 name=ports
 version=1.6
-release=4
+release=3
 source=(http://crux.nu/files/tools/ports/$name-$version.tar.gz \
         core.pub opt.pub xorg.pub contrib.pub \
         core.rsync opt.rsync xorg.rsync contrib.rsync.inactive \
-        core-arm-multilib.httpup opt-arm.httpup xorg-arm.httpup
-        core-arm-multilib.pub opt-arm.pub xorg-arm.pub)
+        core-arm.httpup opt-arm.httpup xorg-arm.httpup
+        core-arm.pub opt-arm.pub xorg-arm.pub)
 
 build () {
   cd $name-$version
