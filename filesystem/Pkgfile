@@ -70,7 +70,7 @@ build() {
   cat > $PKG/usr/bin/crux << EOF
 #!/bin/sh
 
-echo "CRUX-ARM version $version"
+echo "CRUX-ARM multiarch version $version"
 
 # End of file
 EOF
@@ -78,10 +78,10 @@ EOF
 
   # /etc/os-release
 cat > $PKG/etc/os-release << EOF
-NAME=CRUX-ARM
+NAME=CRUX-ARM-multiarch
 VERSION="$version"
 ID=crux-arm
-PRETTY_NAME="CRUX-ARM"
+PRETTY_NAME="CRUX-ARM Multiarch"
 HOME_URL="https://crux-arm.nu/"
 BUG_REPORT_URL="https://crux-arm.nu/bugs/"
 EOF
