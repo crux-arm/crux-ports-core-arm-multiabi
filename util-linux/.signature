@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/core-arm-multiarch.pub
+RWTw3dBqjSlRD8DKaD4UuWSN99+9PLiOlc7HXfUNGktd7VWVo29IW+/Ves0htLFZCXABFcUgQg3mjcdhSotGQsWbpR6GeQ/kVgQ=
+SHA256 (Pkgfile) = 31f07e731a9293dcd91909cea905fab7a917516fd8d5510bbdcc964fb160ce5e
+SHA256 (.footprint) = 5d82cdbab4ce210e3a46fea91834464d804960afdabeafc5e537c4dbc66a34b0
+SHA256 (util-linux-2.40.4.tar.xz) = 5c1daf733b04e9859afdc3bd87cc481180ee0f88b5c0946b16fdec931975fb79
