@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
+RWTw3dBqjSlRD7XAvZCoHneiJ0bKHf2QHgiagBlTtaEl64M+ATM1x3XeIhgZHOKzbDgx0big8D/t9VJKW3eWLi7TgWWbhmpoxgk=
+SHA256 (Pkgfile) = 56058492886b620cbc8bd1e60dc1c576e8fb9fbf57b52421b8db0bf1471994a3
+SHA256 (.footprint) = 8d6c40432ba33e20b325593c119d1bf4d7f2967960bad3daaf17e47b8ff9aaee
+SHA256 (binutils-2.43.1.tar.bz2) = becaac5d295e037587b63a42fad57fe3d9d7b83f478eb24b67f9eec5d0f1872f
