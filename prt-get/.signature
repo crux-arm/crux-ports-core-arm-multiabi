@@ -1,7 +1,7 @@
-untrusted comment: verify with /etc/ports/core-arm-multiarch.pub
-RWTw3dBqjSlRD2xSZ8nnCIGMvicf79HmTwmsQ48/aSe9/hUl2OB0NF0OiFq/pBjyWO27xD+kjVllbAM7HOUW2YzzcKHDdIVa6wE=
+untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
+RWTw3dBqjSlRD1gPd52H2t58Sojr7mkJkyJ3Zj4UcZfFsCISIHnEKrRCl/nmG59+RUOh2RtM5qn714UERkpa7eSs25LCeX82egg=
 SHA256 (Pkgfile) = f676de070e340c8024392de78138d950b287df8398a3a08eca54980acd406f19
 SHA256 (.footprint) = 26802764ae3ae1e1a73ea56c859b3415e250a72ea444af410381df8c8f5d3ac8
 SHA256 (prt-get-5.19.6.tar.xz) = 6ea89df308e19a6239f260c91036805cd2063d0cd24a7427235849634dd49f0d
-SHA256 (prt-get.conf) = d611cea8c0a1db75da745f54b0e3c48996cb983705f605ab6c2b9f2864c84ae4
+SHA256 (prt-get.conf) = b75c531018b74e0e1bebeaba69e93f534cd82422ffb7ba1738b9392dcee065f6
 SHA256 (prt-get.aliases) = df473d38e59d1d6cd859d986a5d6586fdc54bfd51663313c63a939e941984b7b

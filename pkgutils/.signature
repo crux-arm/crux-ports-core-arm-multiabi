@@ -1,4 +1,4 @@
-untrusted comment: verify with /etc/ports/core-arm-multiarch.pub
+untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
 RWTw3dBqjSlRD25Z5eyf58wxqRs53bF+HVVtHVRfXviRtfQSf2QEgaqrVvHPDUuZrEVWBgqJEVGqSXTBFrg76pOLqE8cBeaahAY=
 SHA256 (Pkgfile) = def07be96d74a4f5d2df54acd0a0f0c48f5c25b4845196abffd1d886337bc59d
 SHA256 (.footprint) = 7d143f18f63bba5569d729eefd0d0f04ae4b0539f8bd71f9cfd6955b9e7c639d
