@@ -2,8 +2,8 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/ports/
 -rw-r--r--	root/root	etc/ports/contrib.pub
 -rw-r--r--	root/root	etc/ports/contrib.rsync.inactive
--rw-r--r--	root/root	etc/ports/core-arm.httpup
--rw-r--r--	root/root	etc/ports/core-arm.pub
+-rw-r--r--	root/root	etc/ports/core-arm-multiabi.httpup
+-rw-r--r--	root/root	etc/ports/core-arm-multiabi.pub
 -rw-r--r--	root/root	etc/ports/core.pub
 -rw-r--r--	root/root	etc/ports/core.rsync
 drwxr-xr-x	root/root	etc/ports/drivers/
