@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
+RWTw3dBqjSlRD053l4U4wnU/FBtT2tOKPHiWs4Uu/c/CV+ZMAMOVaugRkdse66ISgXDRZ6alihMgFwVQzJNbTu+xh/JYB2kaWQY=
+SHA256 (Pkgfile) = ff89d6bd05de5a4a950813ff0890621fa1002c751f8aad67677f4dbd9ed792b4
+SHA256 (.footprint) = 4f940f03f9adfac22005f86ffdd7356bc18b652cc6c218e4e60837214b6df70b
+SHA256 (ninja-v1.12.1.tar.gz) = 821bdff48a3f683bc4bb3b6f0b5fe7b2d647cf65d52aeb63328c91a6c6df285a
