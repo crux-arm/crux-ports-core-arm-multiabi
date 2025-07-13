@@ -1,8 +1,0 @@
-#
-# /etc/ports/core-arm-multiarch.httpup: CRUX-ARM multiarch ports overlay for CRUX core collection
-#
-
-ROOT_DIR=/usr/ports/core-arm-multiarch
-URL=https://raw.githubusercontent.com/crux-arm/crux-ports-core-arm-multiarch/3.8/
-
-# End of file

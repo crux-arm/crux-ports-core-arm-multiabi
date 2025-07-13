@@ -1,0 +1,8 @@
+#
+# /etc/ports/core-arm-multiabi.httpup: CRUX-ARM multiaabi (softfp/hardfp) ports overlay for CRUX core collection
+#
+
+ROOT_DIR=/usr/ports/core-arm-multiabi
+URL=https://raw.githubusercontent.com/crux-arm/crux-ports-core-arm-multiabi/3.8/
+
+# End of file
