@@ -1,6 +1,7 @@
 # crux-ports-core-arm-multiabi
 
-CRUX-ARM multiabi (softfp/hardfp) ports overlay for CRUX core collection
+CRUX-ARM multiabi (softfp/hardfp) ports overlay for CRUX core collection.
+This toolchain provides us a way to build U-boot and kernel with softfp/thumb support.
 
 To use these ports, download the `core-arm-multiabi.httpup` file to `/etc/ports`:
 ```
