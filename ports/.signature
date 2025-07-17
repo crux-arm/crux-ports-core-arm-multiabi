@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
-RWTw3dBqjSlRDwYUhMp9cicc+fkOnC5tNpLqQmAt72Dk3+5wWejEmhORItaRMu41/60Xn7p6k5v+OKazBmZMrpOOKPwtZzROOAg=
+RWTw3dBqjSlRD/ZYyIhG3RRB70xengDLmuCxUUUGkur5Bu4RL5WiK4Y+l/FsrkjA3xr5u8hTqzTJbKEErJacgSecZrbrG0eFGwg=
 SHA256 (Pkgfile) = 611c1b5c14b2df20821402d2fb8255fdb0dc23447058b302255346583afa85a3
 SHA256 (.footprint) = 59b38af128a0e90cb7ad87d2251234e427a1411fb2c58ae5c8185f6cc169f2d8
 SHA256 (ports-1.6.tar.gz) = 8b2ba48e7440f4a71fa1c9c480a1212ce87c623e1d33121eb660829ba294ca94
@@ -11,7 +11,7 @@ SHA256 (core.rsync) = a241801eaa34ea78f7bb362574fb4b14ea272518894f8a27e95f6a3c93
 SHA256 (opt.rsync) = 8538d1ced606856552e8a6989a3880b958ac5e0849d14aba199f3f89bd871845
 SHA256 (xorg.rsync) = 3dd6884b2b628e8d9ae575b95fb7e4bad0f9ddd4ee4088d2486f846a407a0278
 SHA256 (contrib.rsync.inactive) = 55621db4b59fb45ecc9525c72d59576043bacbd9261d9ef031dcd1a3fda00957
-SHA256 (core-arm-multiabi.httpup) = 5b9f815268a893832ac47669008a43be7333997d3c5dd86f4bcd8bbb8f88e441
+SHA256 (core-arm-multiabi.httpup) = df9b8ee66792aa6da3ccb52f222e91057e563ff926c8e0aeeb0f216b1257c64d
 SHA256 (opt-arm.httpup) = 8604d4096b6837615967f8491758edbffd0709f10e88cfa5cd707b4a4d1ce6d4
 SHA256 (xorg-arm.httpup) = 0f9ea8038915cd343748b0f0145465ab3626c918b1f30d4b584ec18eefa86fd2
 SHA256 (core-arm-multiabi.pub) = e53d9c4b5bdf00a8e50c0059685f496ced770966f1cc4d4f6e5dad983670a77e
