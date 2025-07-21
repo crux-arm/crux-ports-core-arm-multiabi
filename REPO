@@ -49,11 +49,11 @@ f:e020ea1ffde201a72d1b04af1b6937f3:filesystem/issue
 f:ffc2de139f14da9ceef98cf48acb76e5:filesystem/fstab
 f:93464384634f815bf46a995f74823c5e:filesystem/passwd
 f:a79aae150aa240b06d52cc22d41bd3b6:filesystem/shadow
-f:d28f33603e09aaef8ed493340f6fcca1:filesystem/.footprint
-f:837e5aedee38a98fd5c9742653eb4693:filesystem/Pkgfile
+f:1cc6496c4c9bad55e9ecfea9bd2e2fb5:filesystem/.footprint
+f:ed3d6edc880e259e0f3e2d676b3df93e:filesystem/Pkgfile
 f:346ede8d637940e2898cd29c56a37d30:filesystem/mime.types
 f:d41d8cd98f00b204e9800998ecf8427e:filesystem/motd
-f:11e04140b467934f009b3723d0220626:filesystem/.signature
+f:61c9b51711621b93791f304cdd3292a6:filesystem/.signature
 f:4faaa4e1ba24038f8638a0cae5046cfb:filesystem/securetty
 f:dc4ff0c96d8dcd2141febc8b766e9a6b:filesystem/shells
 f:f05649d0184df6b4550efa3c513dde0e:filesystem/group
