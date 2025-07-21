@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
-RWTw3dBqjSlRDxnkzFpBycmyohr4Ee2KbMdNQjQ2igNeZlHq2qZfYYizeUw4ARbgbv75tR4zyUbUqcyUvjSB0kYd2qno14bTuQI=
-SHA256 (Pkgfile) = 49c4367cb289a1ca2101d37d22aa0802674639de0eac2abd8e2da1e6bb97283e
-SHA256 (.footprint) = 0bda455e6cdd920ef2d49f7ae716ce62d3decb18b1a1eaf8ae5ebfd33a349507
+RWTw3dBqjSlRD/OhjpyzdKnLSJKgFxRfoeGSo/yW0riJIHnC1FiskAkwfIuIR8mwMlMp1u7nF/ckx7P6PZSCCihEGYsGJIkhKAU=
+SHA256 (Pkgfile) = 456f923fe72d1baf0694d05f3211643b6beedc4153482414ed4cd90bc312038e
+SHA256 (.footprint) = 65521b9fbcd7bae926c0b4858ccf80cb16eea16746231be2f323d3e94173baf3
 SHA256 (issue) = c1a778304130a697513169fce5193fe32fe146dcef09ea88b84185842821274a
 SHA256 (motd) = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 SHA256 (shells) = f5e8838cb33249bd0ab3a169097bcc411cfb1b37153f268e6655758942e46656
