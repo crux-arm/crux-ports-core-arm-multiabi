@@ -12,9 +12,9 @@ d:ninja
 d:pkgutils
 d:util-linux
 d:wireless-tools
-f:f3212a31feb2faccde6cd8f432b7e14f:python3/.footprint
-f:503125a296cb1f4eb5ff19405a110a86:python3/Pkgfile
-f:dd15ff6b0055d1f57ef2505137f90963:python3/.signature
+f:bf31761c07edad79a6b689e8ec552147:python3/.footprint
+f:a72009024a71997b3381319381d0ce78:python3/Pkgfile
+f:e6777cda29cbb83f222c7fe71f147abd:python3/.signature
 f:fbbc215a9b15ba4846f326cc88108057:glibc/hosts
 f:b2a86bb21d023bab8b2b64d25be99f8c:glibc/.footprint
 f:8ade3a1b3e11426f6c070daa3906c6f7:glibc/post-install
