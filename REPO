@@ -84,9 +84,9 @@ f:9a7ec7bdf5155fbedb02b35e50420cfa:ports/core.rsync
 f:804bb419e539a70ad80e4c03df3c3411:ports/contrib.pub
 f:92891482d508900cd6208bdad41f549d:ports/opt.rsync
 f:4e4498a2ba771a30257a9d447329bca8:ports/xorg-arm.httpup
-f:314c9a03efc77e6867619c85aa5e3194:ninja/.footprint
-f:6da8206dfe4ae3ce97cbddabe92c6459:ninja/Pkgfile
-f:b5cbc52bf3501441b917c2cee7868065:ninja/.signature
+f:bbb9d0eded3df768d4472d6f3fdc83e0:ninja/.footprint
+f:0138f251a954f31f91801cc78e3d48c8:ninja/Pkgfile
+f:c09beac7719796e7cd765a80fb73d3a0:ninja/.signature
 f:eba22602ef6e71d54d7c0a2f1185fd78:pkgutils/pkgmk.conf
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:9693592850d40079557552217619265b:pkgutils/Pkgfile
