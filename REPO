@@ -18,10 +18,11 @@ f:e6777cda29cbb83f222c7fe71f147abd:python3/.signature
 f:fbbc215a9b15ba4846f326cc88108057:glibc/hosts
 f:b2a86bb21d023bab8b2b64d25be99f8c:glibc/.footprint
 f:8ade3a1b3e11426f6c070daa3906c6f7:glibc/post-install
-f:33c957f72d60f1b290f7cd643efc66c5:glibc/Pkgfile
+f:39e60d7d1ebb920f150bb409860a8778:glibc/Pkgfile
 f:58867be9286ece55adff1226216fdd9f:glibc/locale-gen
-f:a592a04662342536ab71f44ac706e8cf:glibc/.signature
+f:840400bf69fe882b469d15dad7606327:glibc/.signature
 f:518de5e52f9166e58ed613a0d636e774:glibc/locale.gen.in
+f:5144c947aeca04bffaf957022ffd639a:glibc/glibc-2.40-1.patch
 f:0ff41d45087570954d1b7358bbfb1797:glibc/linux-headers-cp-insteadof-rsync.patch
 f:96156bec8e05de67384dc93e72bdc313:glibc/host.conf
 f:75931315bf9bc9be15a5e25e4ddd5f0d:glibc/nsswitch.conf
