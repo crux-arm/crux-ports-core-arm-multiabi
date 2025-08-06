@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
-RWTw3dBqjSlRDyY4KkfXRtvB0Vw5y7jgoVUvwSoMg45EHyTyS6FEFX1mCjUFh9AoNp1Sw8e9Db7IQirvAdCjlcyHIRXF0f7e+Qo=
-SHA256 (Pkgfile) = 727373d86612105e98de54e82cd1c836b2aac042c9453b7a6b5f5bcf74590b11
+RWTw3dBqjSlRD8uTNz/yZx5P+3tEWbNVw9SAjxJPlvlXS/UcSgeOrFvLrFownvhXkKT/2sYHute2pD24s3iwRtiyIqSu7QsU1g8=
+SHA256 (Pkgfile) = 2945356d367f818678e56863af78a035a51f22b49b615db62ee4cc3fb8de0dfb
 SHA256 (.footprint) = a24a56859dec4e2c880b40cd217308645e0cabf7dbfc26f5768ab7e162099bb8
-SHA256 (util-linux-2.40.3.tar.xz) = 0d6429d0cc474eafb972b0f4fee6b9c3d3f31c7bbada012bb3a1e255f00612c5
+SHA256 (util-linux-2.40.4.tar.xz) = 5c1daf733b04e9859afdc3bd87cc481180ee0f88b5c0946b16fdec931975fb79
