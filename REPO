@@ -29,9 +29,9 @@ f:ffd59b0f7c8b5d66cdc3a5f33fa50e57:glibc/glibc-2.39-fhs-1.patch
 f:acf9daad1ee85de5efd3543965596a63:glibc/resolv.conf
 f:f7fefce570a3c776e26e778c5e401490:glibc/ld.so.conf
 f:0d2d7f988d1756d693b262d46fee7d17:glibc/.nostrip
-f:cedc5025aefdb42a0f4713fce634831d:kbd/.footprint
-f:007e25b267ac5e080c724e3abd60fc38:kbd/Pkgfile
-f:6dec05be3b7f4045f7e60ec4a7722dc2:kbd/.signature
+f:979d8e162b2b46fc6552dc51a126983a:kbd/.footprint
+f:5fb2b012be7bfc06f679d2a0c6916f6c:kbd/Pkgfile
+f:1d9dfe74603ab7900547ab9d39f692bd:kbd/.signature
 f:65632d841dc92bec22aa9354ad76ab5b:libgmp/.footprint
 f:90d9ebd46449aed27152deacfa65b525:libgmp/Pkgfile
 f:66dc796ba56d89a4822739b016cc041f:libgmp/.signature
