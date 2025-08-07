@@ -63,10 +63,10 @@ f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
 f:0df5c2b50355b235a3545cb819d4ca22:prt-get/.signature
 f:cc338736d77cd0e047368500d2de154d:prt-get/prt-get.conf
 f:ac750b56369121ca6aad64dd4c03671b:prt-get/prt-get.aliases
-f:084f8f96225f30ffcc1d03714cd37f6d:gcc/.footprint
-f:8bcc9eb0fc1eedad7c6d14597bb740b5:gcc/Pkgfile
+f:39d7e63bd15096509e1ba7e0ba0ee7fd:gcc/.footprint
+f:a00230b07717777df86a7f52be7956aa:gcc/Pkgfile
 f:37173a681c2cd6621c436639de5f3f73:gcc/README
-f:fc5710e70ad22fff503bbe2d3bbe33a7:gcc/.signature
+f:a773e6cdf55ba02b0e88cf6704e979e0:gcc/.signature
 f:a617c4d3fa11e0c9410ac213eb061677:gcc/gcc-nocheck-fixincludes.patch
 f:5aa12efc9b78a04c87af48ab82bdfcaf:ports/core-arm-multiabi.pub
 f:093976ed22eb0418721096175b2bd276:ports/xorg-arm.pub
