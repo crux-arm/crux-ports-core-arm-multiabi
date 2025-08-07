@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
+RWTw3dBqjSlRD6t671AscLRwI2E8chUmrtrG+uVs62/pDPSqRdmBN4hogf/govdcVArr7xCYfCiJvkQOxfAe3ytCRKlcxTk/mQg=
+SHA256 (Pkgfile) = fc9a3a5601a978d14cb0d6ff2de9097e1ed5bf708ef7961fc60799fc0f383a7d
+SHA256 (.footprint) = b80211a43efdcf49985cb9dfd17696987aadfeb8cfdf4031c19ebfbc5d34b5ff
+SHA256 (rhash-1.4.6.tar.gz) = 9f6019cfeeae8ace7067ad22da4e4f857bb2cfa6c2deaa2258f55b2227ec937a
