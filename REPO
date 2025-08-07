@@ -1,3 +1,4 @@
+d:rhash
 d:python3
 d:glibc
 d:kbd
@@ -12,6 +13,9 @@ d:ninja
 d:pkgutils
 d:util-linux
 d:wireless-tools
+f:4a0af4c1fecebb0d3cf2c7a1345f76ed:rhash/.footprint
+f:72bf12353d44beafea7758634caea04c:rhash/Pkgfile
+f:e3ba761891158607267161c3f468976e:rhash/.signature
 f:bf31761c07edad79a6b689e8ec552147:python3/.footprint
 f:a72009024a71997b3381319381d0ce78:python3/Pkgfile
 f:e6777cda29cbb83f222c7fe71f147abd:python3/.signature
