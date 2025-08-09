@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/core-arm-multiabi.pub
-RWTw3dBqjSlRD3s1wmZyzgbbn62zacmArQ+Ls7c5by/FwQtYXaxL0ZgEbcq8W/2SsbqI1bWqhg7wu2ZOgDQFMcbf2xUdmjDJfQw=
-SHA256 (Pkgfile) = 79c5b6f2620c62fa9358f801d3936b246d1fdb1324c0388dea8996d2fd34f79a
-SHA256 (.footprint) = 59b38af128a0e90cb7ad87d2251234e427a1411fb2c58ae5c8185f6cc169f2d8
+RWTw3dBqjSlRD6u3VhfyxMQhynWTvAtmrgRFCYyiW5HJ6FubEfANL7BDUKpiI9ya5tNkhbTFU0qqybqfjrAZRh0NmopaynYIqAg=
+SHA256 (Pkgfile) = d55dfacfdd61ece19b7023b30ee7bf22c65c810b715770aab20843419d0b0823
+SHA256 (.footprint) = 1c8add4682355ff5db09d65ff8f564e8b546890549a40e48ad2b028148b6c2bc
 SHA256 (ports-1.6.tar.gz) = 8b2ba48e7440f4a71fa1c9c480a1212ce87c623e1d33121eb660829ba294ca94
 SHA256 (core.pub) = 5a08b7f21fb1768b9e639da0b768edb536de0590b75e663dab6d185617613791
 SHA256 (opt.pub) = 4711f488546c38cdec792c1f16b3bf7c4db0c7dc0c3cdab0ecdd85e2c7247ae5
@@ -11,9 +11,9 @@ SHA256 (core.rsync) = 3c519f28a8b8593edcfcfb5f059f7483356776702bfba0ca7a61a1026b
 SHA256 (opt.rsync) = 9d1a6f55491550406bedba8c62bacd5d2664689548e3c33a3227dc6ba890f192
 SHA256 (xorg.rsync) = 65ccbb020ab33484a834d7f2e71e3084ce2e51fdc4a33a1d8f13a72bdec02f60
 SHA256 (contrib.rsync.inactive) = fb1460b95b525478f9fb062fa21e209cf1ed449f3016a2bc89c4b5329a5fdaf8
-SHA256 (core-arm-multiabi.httpup) = 022a0ee3e7826ebdd1874883f8f49548dc58fd945dda0fd62e718db1f3336939
-SHA256 (opt-arm.httpup) = 4dad3a0c0c99605574c7781f3fdad72717483e1ca414b242cd7e6168a90861e2
-SHA256 (xorg-arm.httpup) = 06b7de0b1e09f12c4c737ce1e068764f36bdf74816c01e9f68814c0a4b1fe239
+SHA256 (core-arm-multiabi.rsync) = 4a94c1bc6fed94c7373dd44e3b2467c060019e7a2b15e437a14700df2f20b748
+SHA256 (opt-arm.rsync) = c0178f49b64215d4fbeb86f658fdbef0a0c4a7baafb6e9b59ecfa2c635d6f4b4
+SHA256 (xorg-arm.rsync) = 44bbbb58ed0fb5dbcd03531cd3b31ea49c003b57aa1ae69bed5dcdd730072ee6
 SHA256 (core-arm-multiabi.pub) = e53d9c4b5bdf00a8e50c0059685f496ced770966f1cc4d4f6e5dad983670a77e
 SHA256 (opt-arm.pub) = b24e7d0ce48b220938d8a192755e19644dee11c6a34c4328207456394790ab1f
 SHA256 (xorg-arm.pub) = eddfc12a736084d1cbc12fe3c3171952880244e04b42f29476b18699a7e3ed62
